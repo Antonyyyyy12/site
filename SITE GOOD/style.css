@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+select {
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.hidden {
+  display: none;
+}
+@keyframes drop {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
